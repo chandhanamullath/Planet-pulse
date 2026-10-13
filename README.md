@@ -2,44 +2,6 @@
 
 > **Inspired by Radio Garden:** Spin the globe, tune into Earth's living pulses, and explore real-time weather, air quality, and natural hazard events across the planet.
 
-Built for hackathons with **React 18**, **Vite**, **Three.js**, **react-globe.gl**, and **Tailwind CSS**.
-
----
-
-## ⚡ Quick Start for Beginners
-
-### 1. How the `npm ECONNRESET` Error Was Diagnosed & Solved
-If you saw `npm error code ECONNRESET` or `Client network socket disconnected before secure TLS connection was established` when trying to run `npm init vite` or `npm install`, this is caused by network firewalls, school/lab proxies, or TLS handshake resets when contacting `registry.npmjs.org`.
-
-**The Solution:**
-This project includes a `.npmrc` configuration file in the project root:
-```ini
-registry=https://registry.npmmirror.com/
-```
-This routes package downloads through a high-speed, reliable public mirror that bypasses the TLS reset block without requiring any proxies or VPNs.
-
-### 2. Launching the App
-Open your terminal inside the project directory:
-
-```bash
-# 1. Install dependencies (already installed)
-npm install
-
-# 2. Start the local development server
-npm run dev
-```
-
-Open your browser and navigate to:
-**[http://localhost:3000](http://localhost:3000)**
-
-To create an optimized production build:
-```bash
-npm run build
-npm run preview
-```
-
----
-
 ## 🛰️ Core Features
 
 - **Interactive 3D Earth Globe:**
